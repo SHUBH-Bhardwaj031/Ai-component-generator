@@ -1,0 +1,18 @@
+body{
+  background-color:var(--primary-bg);
+  color: #fff;
+}
+
+:root{
+  --primary-bg:#090908;
+  --secondary-bg:#141319;
+  --tertiary-bg:#17171c;
+}
+
+
+.sp-text{
+background-image: radial-gradient(ellipse at right, #22d3ee, #7dd3fc);
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+}
