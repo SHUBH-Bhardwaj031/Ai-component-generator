@@ -16,3 +16,12 @@ background-clip: text;
 -webkit-background-clip: text;
 color: transparent;
 }
+
+.icon {
+  font-size:20px;
+  padding:10px;
+  border:1px solid rgb(68, 62, 62);
+  background-color: #151417;
+  border-radius: 10px;
+  cursor: pointer;
+}
