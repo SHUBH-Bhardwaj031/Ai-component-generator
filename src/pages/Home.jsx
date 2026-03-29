@@ -19,6 +19,7 @@ const Home = () => {
     { value: 'html-css', label: 'HTML + CSS' },
     { value: 'html-tailwind', label: 'HTML + Tailwind CSS' },
     { value: 'html-bootstrap', label: 'HTML + Bootstrap' },
+    { value: 'react-tailwind', label: 'React + Tailwind CSS' },
     { value: 'html-css-js', label: 'HTML + CSS + JS' },
     { value: 'html-tailwind-bootstrap', label: 'HTML + Tailwind + Bootstrap' },
   ];
@@ -40,7 +41,7 @@ const Home = () => {
 
   // ⚠️ API Key (you said you want it inside the file)
   const ai = new GoogleGenAI({
-    apiKey: "AIzaSyBVWVGqQnscFC3jj4M9IC5v88ZPw58-rcw"
+    apiKey:  import.meta.env.VITE_API_KEY,
   });
 
   // ✅ Generate code
